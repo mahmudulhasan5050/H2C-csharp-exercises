@@ -9,10 +9,10 @@ namespace exercise_09
             // Write your code here:
             Console.WriteLine("Hello, how are you?");
             Console.Write("> ");
-            Console.ReadLine();
+            string msg1 = Console.ReadLine();
             Console.WriteLine("That's interesting, tell me more");
             Console.Write("> ");
-            Console.ReadLine();
+            string msg2 = Console.ReadLine();
             Console.WriteLine("Thank you for sharing!");
             Console.ReadKey();
         }
