@@ -6,7 +6,13 @@ namespace exercise_12
   {
     public static void Main(string[] args)
     {
-      // Write your code here:
+      Console.Write("Give a number!\n> ");
+
+            string userInput = Console.ReadLine();
+            int intValue = Convert.ToInt32(userInput);
+
+            Console.WriteLine("You gave " + intValue);
+            Console.ReadKey();
 
     }
   }
