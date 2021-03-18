@@ -6,7 +6,28 @@ namespace exercise_38
   {
     public static void Main(string[] args)
     {
-      // Write your code here:
+       int total = 0;
+
+            while (true)
+            {
+                Console.Write("Give a number:\n> ");
+                int number = Convert.ToInt32(Console.ReadLine());
+
+                if(number == 0)
+                {
+                    break;
+                }
+                else if(number < 0)
+                {
+                    total = total + 1;
+                }
+                else
+                {
+                    continue;
+                }
+            }
+            Console.WriteLine("Total amount of numbers: " + total);
+            Console.ReadKey();    
 
     }
   }
