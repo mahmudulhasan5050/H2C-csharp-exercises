@@ -6,7 +6,22 @@ namespace exercise_33
   {
     public static void Main(string[] args)
     {
-      // Write your code here:
+            Console.Write("Give the first string:\n> ");
+            string firstWord = Console.ReadLine();
+
+            Console.Write("Give the second string:\n> ");
+            string secondWord = Console.ReadLine();
+            
+
+            if(firstWord == secondWord)
+            {
+                Console.WriteLine("Echo!");
+            }
+            else
+            {
+                Console.WriteLine("Nope!");
+            }
+            Console.ReadKey();
 
     }
   }
