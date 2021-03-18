@@ -26,7 +26,7 @@ namespace exercise_38
                     continue;
                 }
             }
-            Console.WriteLine("Total amount of numbers: " + total);
+            Console.WriteLine("Total amount of negative numbers: " + total);
             Console.ReadKey();    
 
     }
