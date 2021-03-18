@@ -6,7 +6,7 @@ namespace exercise_32
   {
     public static void Main(string[] args)
     {
-      Console.Write("Speak, friend, and enter!\n> ");
+           Console.Write("Speak, friend, and enter!\n> ");
             string message = Console.ReadLine();
 
             string myMessage = "Mellon";
