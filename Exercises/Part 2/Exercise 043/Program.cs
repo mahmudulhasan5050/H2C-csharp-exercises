@@ -11,7 +11,7 @@ namespace exercise_43
 
            if(firstInput < 0)
             {
-                firstInput = firstInput * (-1);
+                firstInput = firstInput * (-1); 
                 Console.WriteLine(firstInput);
             }
            else

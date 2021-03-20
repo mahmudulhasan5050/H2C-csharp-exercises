@@ -7,8 +7,25 @@ namespace exercise_44
     public static void Main(string[] args)
     {
 
-      // Write your code here:
+            Console.Write("> ");
+            int firstInput = Convert.ToInt32(Console.ReadLine());
 
+            Console.Write("> ");
+            int secondInput = Convert.ToInt32(Console.ReadLine());
+
+            if(firstInput > secondInput)
+            {
+                Console.WriteLine(firstInput +" is grEater than " + secondInput);
+            }
+            else if(firstInput < secondInput)
+            {
+                Console.WriteLine(firstInput + " is less than " + secondInput);
+            }
+            else
+            {
+                Console.WriteLine(firstInput + " is equal to " + secondInput);
+            }
+            Console.ReadKey();
     }
   }
 }
