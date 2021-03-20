@@ -20,9 +20,9 @@ namespace exercise_22
             int thirdNumber = Convert.ToInt32(thirdInput);
 
             double averageNormal = (firstNumber + secondNumber + thirdNumber)/3.0;
-            string averageFormat = string.Format("{0:0.0}", averageNormal);
+          //  double averageFormat = string.Format("{0:0.0}", averageNormal);
 
-            Console.WriteLine("The average is " + averageFormat);
+            Console.WriteLine("The average is " + averageNormal);
             Console.ReadKey();
 
     }
