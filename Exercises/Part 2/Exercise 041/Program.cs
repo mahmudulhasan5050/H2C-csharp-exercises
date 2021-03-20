@@ -6,9 +6,12 @@ namespace exercise_41
   {
     public static void Main(string[] args)
     {
+            Console.Write("> ");
+            int userInput = Convert.ToInt32(Console.ReadLine());
+            int secondPower = userInput * userInput;
 
-      // Write your code here:
-      
+            Console.WriteLine(secondPower);
+            Console.ReadKey();
     }
   }
 }
