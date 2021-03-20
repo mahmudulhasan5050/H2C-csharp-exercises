@@ -6,7 +6,7 @@ namespace exercise_48
   {
     public static void Main(string[] args)
     {
-      int sum = 0;
+            int sum = 0;
             int count = 0;
             double average = 0;
             int evenCount = 0;
