@@ -22,6 +22,7 @@ namespace exercise_64
       {
         Console.WriteLine(line);
       }
+
       Console.WriteLine("");
       Console.WriteLine(lines[6]);
             Console.ReadKey();
