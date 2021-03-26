@@ -58,7 +58,7 @@ namespace exercise_61
 
     public static void ChristmasTree(int height)
     {
-            
+                  
     }
   }
 }
