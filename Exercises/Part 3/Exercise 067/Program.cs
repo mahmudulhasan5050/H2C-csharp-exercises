@@ -10,6 +10,7 @@ namespace exercise_67
       List<string> list = new List<string>();
       while (true)
       {
+        Console.Write("> ");
         string input = Console.ReadLine();
         if (input == "")
         {
@@ -17,6 +18,11 @@ namespace exercise_67
         }
         list.Add(input);
       }
+      int last = list.Count - 1;
+
+      Console.WriteLine(list[0]);
+      Console.WriteLine(list[last]);
+            Console.ReadKey();
 
     }
   }
