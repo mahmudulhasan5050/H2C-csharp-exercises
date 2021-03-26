@@ -8,8 +8,10 @@ namespace exercise_66
     public static void Main(string[] args)
     {
       List<string> list = new List<string>();
+
       while (true)
       {
+        Console.Write("> ");
         string input = Console.ReadLine();
         if (input == "")
         {
@@ -17,7 +19,9 @@ namespace exercise_66
         }
         list.Add(input);
       }
-
+      int lastWord = list.Count - 1;
+      Console.WriteLine(list[lastWord]);
+      Console.ReadKey();
     }
   }
 }
