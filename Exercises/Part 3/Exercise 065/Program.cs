@@ -10,14 +10,17 @@ namespace exercise_65
       List<string> list = new List<string>();
       while (true)
       {
+        Console.Write("> ");
         string input = Console.ReadLine();
         if (input == "")
         {
           break;
         }
+        
         list.Add(input);
       }
-
+      Console.WriteLine("In total: " + list.Count);
+            Console.ReadKey();
     }
   }
 }
