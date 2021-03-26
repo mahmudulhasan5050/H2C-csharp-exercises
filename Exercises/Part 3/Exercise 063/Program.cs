@@ -19,7 +19,9 @@ namespace exercise_63
 
         list.Add(input);
       }
-      Console.WriteLine(list[0]);
+      int result = list[1] + list[2];
+      Console.WriteLine(result);
+            Console.ReadKey();
     }
 
   }
