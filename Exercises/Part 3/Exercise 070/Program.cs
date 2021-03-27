@@ -17,6 +17,16 @@ namespace exercise_70
         }
         list.Add(input);
       }
+      int greatest = list[0];
+      foreach(int listSingle in list)
+            {
+                if(greatest < listSingle)
+                {
+                    greatest = listSingle;
+                }
+            }
+      Console.WriteLine("The grEastest number: " + greatest);
+            Console.ReadKey();
     }
   }
 }
