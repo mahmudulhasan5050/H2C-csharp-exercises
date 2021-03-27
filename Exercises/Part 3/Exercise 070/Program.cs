@@ -10,6 +10,7 @@ namespace exercise_70
       List<int> list = new List<int>();
       while (true)
       {
+        Console.Write("> ");
         int input = Convert.ToInt32(Console.ReadLine());
         if (input == -1)
         {
