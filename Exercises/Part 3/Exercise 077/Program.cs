@@ -7,9 +7,35 @@ namespace exercise_77
   {
     public static void Main(string[] args)
     {
-      // You can try your method here if you want
+      List<string> strings = new List<string>();
+
+      strings.Add("First");
+      strings.Add("Second");
+      strings.Add("Third");
+
+
+     strings.ForEach(Console.WriteLine);
+
+     RemoveLast(strings);
+     RemoveLast(strings);
+     
+     strings.ForEach(Console.WriteLine);
+     Console.ReadKey();
     }
 
+        public static void RemoveLast(List<string> strings)
+        {
+            int lastIndex = strings.Count - 1;
+            if(strings.Count == 0)
+            {
+                return;
+            }
+            else
+            {
+                 strings.RemoveAt(lastIndex);
+                
+            }
+        }
   }
 }
 
