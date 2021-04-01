@@ -11,11 +11,18 @@ namespace exercise_80
       int sum = SumOfNumbersInArray(numbers);
       Console.WriteLine(sum);
 
+      Console.ReadKey();
     }
 
     public static int SumOfNumbersInArray(int[] numbers) {
-
-      return 0;
+      
+            int numberSum = 0;
+            foreach(int num in numbers)
+            {
+                numberSum = numberSum + num;
+            }
+     
+            return numberSum;
     }
 
   }
