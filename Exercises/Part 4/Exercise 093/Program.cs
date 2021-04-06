@@ -8,15 +8,15 @@ namespace exercise_93
     {
       // DO NOT TOUCH THE OTHER FILE!
       // Do your code here!
-            Account accountHasan = new Account("Hasan", 100.00);
+            Account heikkisAccount = new Account("Heikki's account", 100.00);
 
             Console.WriteLine("Intial state");
-            Console.WriteLine(accountHasan);
+            Console.WriteLine(heikkisAccount);
 
-            accountHasan.Deposit(20.0);
+            heikkisAccount.Deposit(20.0);
 
             Console.WriteLine("End state");
-            Console.WriteLine(accountHasan);
+            Console.WriteLine(heikkisAccount);
 
             Console.ReadKey();
     }
