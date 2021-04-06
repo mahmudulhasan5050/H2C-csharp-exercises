@@ -1,5 +1,6 @@
 ﻿using System;
 
+
 namespace exercise_97
 {
   class Program
@@ -14,7 +15,7 @@ namespace exercise_97
       duckWhistle.Sound();
       roosterWhistle.Sound();
       duckWhistle.Sound();
-
+      Console.ReadKey();
     }
   }
 }
