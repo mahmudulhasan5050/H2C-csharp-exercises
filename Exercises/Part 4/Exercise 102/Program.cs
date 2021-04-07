@@ -8,6 +8,7 @@ namespace exercise_102
     {
       Gauge g = new Gauge();
 
+
       while (!g.Full())
       {
         Console.WriteLine("Not full! Value: " + g.value);
@@ -16,7 +17,9 @@ namespace exercise_102
 
       Console.WriteLine("Full! Value: " + g.value);
       g.Decrease();
-      Console.WriteLine("Not full! Value: " + g.value);
+      Console.WriteLine("Not full! Value: " + g.value);  
+
+            Console.ReadKey();
     }
   }
 }
