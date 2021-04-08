@@ -14,6 +14,7 @@ namespace exercise_108
 
       card.DrinkCoffee();
       Console.WriteLine(card);
+            Console.ReadKey();
     }
   }
 }
