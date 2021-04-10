@@ -13,8 +13,8 @@ namespace exercise_117
           string fileName = Console.ReadLine();
 
 
-        string startupPath = Path.Combine(Directory.GetParent(System.IO.Directory.GetCurrentDirectory()).Parent.Parent.FullName, "Exercise 117", fileName);
-        string text = File.ReadAllText(startupPath);
+      //  string startupPath = Path.Combine(Directory.GetParent(System.IO.Directory.GetCurrentDirectory()).Parent.Parent.FullName, "Exercise 117", fileName);
+        string text = File.ReadAllText(fileName);
       
             Console.WriteLine(text);
             Console.ReadKey();
