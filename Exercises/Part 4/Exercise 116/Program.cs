@@ -12,8 +12,8 @@ namespace exercise_116
       // Read the file data.txt and print the text from it as it is
       // You can use either File.ReadAllText or File.ReadAllLines
 
-        string startupPath = Path.Combine(Directory.GetParent(System.IO.Directory.GetCurrentDirectory()).Parent.Parent.FullName, "Exercise 116", "data.txt");
-        string text = File.ReadAllText(startupPath);
+       // string startupPath = Path.Combine(Directory.GetParent(System.IO.Directory.GetCurrentDirectory()).Parent.Parent.FullName, "Exercise 116", "data.txt");
+        string text = File.ReadAllText("data.txt");
             
         Console.WriteLine(text);
             
