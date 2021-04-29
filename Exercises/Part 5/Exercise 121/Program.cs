@@ -15,6 +15,7 @@ namespace exercise_121
         Console.WriteLine("Target " + (percentage * 100) + "% of maximum: " + target);
         percentage = percentage + 0.1;
       }
+      Console.ReadKey();
     }
   }
 }
