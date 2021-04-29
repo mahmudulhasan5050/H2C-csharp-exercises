@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 
 namespace exercise_122
 {
@@ -14,6 +15,7 @@ namespace exercise_122
       Console.WriteLine(tapeMeasure);
       Console.WriteLine(plaster);
       Console.WriteLine(tyre);
+            Console.ReadKey();
     }
   }
 }
