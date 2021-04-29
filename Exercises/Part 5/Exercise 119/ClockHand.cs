@@ -1,3 +1,5 @@
+
+
 namespace exercise_119
 {
   public class ClockHand
@@ -31,4 +33,5 @@ namespace exercise_119
       return "" + this.value;
     }
   }
+
 }
